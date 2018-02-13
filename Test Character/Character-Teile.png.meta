@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 609b9cfa0d2100e49ad57b125bc86298
+timeCreated: 1518100331
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: left thigh
+    21300002: right arm
+    21300004: Tail
+    21300006: left shank
+    21300008: left arm
+    21300010: Character-Teile_5
+    21300012: head
+    21300014: Character-Teile_7
+    21300016: left foot
+    21300018: right thigh
+    21300020: right shank
+    21300022: body
+    21300024: Character-Teile_12
+    21300026: right foot
+    21300028: Character-Teile_14
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: left thigh
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 607
+        width: 96
+        height: 168
+      alignment: 9
+      pivot: {x: 0.34062335, y: 0.93629164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right arm
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 655
+        width: 244
+        height: 129
+      alignment: 9
+      pivot: {x: 0.06204524, y: 0.8464138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tail
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 460
+        width: 191
+        height: 289
+      alignment: 9
+      pivot: {x: 0.8967231, y: 0.046202347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left shank
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 466
+        width: 71
+        height: 94
+      alignment: 9
+      pivot: {x: 0.82838196, y: 0.8410463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left arm
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 526
+        width: 225
+        height: 107
+      alignment: 9
+      pivot: {x: 0.07255622, y: 0.5090794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character-Teile_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 441
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: head
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 332
+        width: 169
+        height: 162
+      alignment: 9
+      pivot: {x: 0.4482653, y: 0.11021555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character-Teile_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 426
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left foot
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 367
+        width: 94
+        height: 54
+      alignment: 9
+      pivot: {x: 0.20029336, y: 0.6079412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right thigh
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 95
+        width: 104
+        height: 192
+      alignment: 9
+      pivot: {x: 0.7811624, y: 0.89406794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right shank
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 198
+        width: 93
+        height: 79
+      alignment: 9
+      pivot: {x: 0.8447131, y: 0.80742556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 34
+        width: 163
+        height: 315
+      alignment: 9
+      pivot: {x: 0.47616035, y: 0.04665054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character-Teile_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 108
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right foot
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 74
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.22959286, y: 0.7963787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character-Teile_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 89
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
