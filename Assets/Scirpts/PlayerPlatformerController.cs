@@ -1,19 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerPlatformerController : PhysikObjekcts {
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed= 7;
-
+    public Text greenAppleText;
+	public Text winText;
+	public Text start;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+	private int greenApple;
+	
 	// Use this for initialization
 	void Awake () {
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+		greenApple = 0;
+		winText.text ="";
+		SetGreenApple();
 	}
 
     protected override void ComputeVelocity()
@@ -45,4 +53,21 @@ public class PlayerPlatformerController : PhysikObjekcts {
         animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
         targetVelocity = move * maxSpeed;
     }
+	
+	    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Pickup")){
+			other.gameObject.SetActive (false);
+			greenApple++;
+			SetGreenApple();
+		}
+		if (greenApple >= 4){
+			winText.text = "You win!";
+		}
+    }
+
+	void SetGreenApple()
+	{
+		greenAppleText.text = "greenApple: " + greenApple.ToString();
+	}
 }
