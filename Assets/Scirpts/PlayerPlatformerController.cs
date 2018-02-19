@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerPlatformerController : PhysikObjekcts {
 
@@ -13,6 +15,10 @@ public class PlayerPlatformerController : PhysikObjekcts {
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 	private int greenApple;
+	public GameObject loadingImage;
+
+
+
 	
 	// Use this for initialization
 	void Awake () {
@@ -23,6 +29,7 @@ public class PlayerPlatformerController : PhysikObjekcts {
 		winText.text ="";
 		SetGreenApple();
 	}
+
 
     protected override void ComputeVelocity()
     {
@@ -61,13 +68,22 @@ public class PlayerPlatformerController : PhysikObjekcts {
 			greenApple++;
 			SetGreenApple();
 		}
-		if (greenApple >= 4){
+		if (greenApple >= 5){
 			winText.text = "You win!";
+			loadingImage.SetActive(true);
+			LoadScene(0);
 		}
     }
+	
 
 	void SetGreenApple()
 	{
 		greenAppleText.text = "greenApple: " + greenApple.ToString();
+	}
+
+	public void LoadScene (int level)
+	{
+		loadingImage.SetActive(true);
+		SceneManager.LoadScene(level);
 	}
 }
